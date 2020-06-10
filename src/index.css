@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  color: white;
+  font-family: 'Open Sans', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  font-weight: 300;
+  letter-spacing: 1px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+h1,h2,h3,h4,h5{
+  font-weight: 300;
+  margin-bottom:10px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+p {
+  line-height: 1.4  ;
+}
+
+.semi-bold{
+  font-weight: 400;
+}
+code {
+  display: block;
+  white-space: pre-wrap   
+}
+.Orange {
+  color:rgb(249, 91, 61);
+}
+
+li{
+  margin-top: 2px;
+}

@@ -1,0 +1,215 @@
+
+.NavBar {
+  min-height: 10px;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  justify-content: space-evenly;
+  z-index: 9999;
+  color: rgb(230, 233, 245);
+  width:100%; 
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 1px;
+  margin-bottom: 50px;
+}
+
+.App-header {
+  width:100%;
+}
+.BodySplit{
+  display: flex;
+  flex-direction: row;
+  justify-content: center; 
+  min-height: 100vh;
+}
+
+.Left{
+  width:50%;
+  float:left;
+}
+.Right{
+  width:50%;
+  float:right;
+}
+.NavLink{
+  padding:12px;
+  color: white;
+  font-size: large;
+  text-decoration: none;
+}
+.NavLink:Hover{
+  padding:12px;
+  color: white;
+  font-size: large;
+  text-decoration: underline;
+}
+.Selected {
+  padding:12px;
+  color: white;
+  font-size: large;
+  text-decoration: underline;
+}
+
+.Link{
+  color: rgb(230, 233, 245);
+
+  text-decoration: none;
+}
+.Link:Hover{
+  color: white;
+  text-decoration: underline;
+}
+
+.LogoArea {
+  flex:1;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  max-height: 100vh;
+}
+@media screen and (max-width: 800px) {
+  .LogoArea{
+    display: none;
+  }
+}
+
+.ContentArea {
+  padding:0 5%;
+  background-color: rgb(70, 84, 163);
+  flex:1;
+  max-height: 100vh;
+  overflow-y: scroll;
+}
+.Selected{
+  text-decoration: underline;
+}
+
+.Caption{
+  display: flex;
+  flex-direction: row;
+  
+ 
+}
+.Caption>h1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.Joe{
+  width:150px;
+  height:150px;
+  margin-left: 5%;
+  
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  -khtml-border-radius: 50%;
+}
+.Companies{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+}
+
+.Company {
+  margin-bottom: 2px;
+}
+.bottom-container {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 48px;
+}
+.email{
+  color:rgb(70, 84, 163);
+  border: solid rgb(70, 84, 163) 2px;
+  
+  padding:12px;
+  font-weight: 400;
+  font-size: large;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-decoration: none;
+
+}
+.email:hover{
+  color:white;
+  background-color: rgb(70, 84, 163);
+  text-decoration: underline;
+} 
+
+.IE-logo{
+  display: none;
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active){
+  .Logo-svg{
+    display: none;
+  }
+  .IE-logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+@supports (-ms-accelerator:true) {
+  .Logo-svg{
+    display: none;
+  }
+  .IE-logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+@supports (-ms-ime-align:auto) {
+  .Logo-svg{
+    display: none;
+  }
+  .IE-logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+.Tech{
+  border:solid 1px white;
+  margin-right: 5%;
+  margin-bottom:5%;
+  flex:1;
+  
+}
+.Tech h4{
+ margin-left:25%
+}
+.Tech li{
+  list-style: none;
+  font-size: 12px;
+ 
+  
+}
+.Tech-flex{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+}
+
+.ServiceNav{
+  border-left: solid 2px white;
+}
+.ServiceNav ol {
+  list-style: none;
+  padding-left: 5%;
+  
+}
+.ServiceNav ol li {
+  margin-bottom: 5px;
+  letter-spacing: 2px;
+  
+}
