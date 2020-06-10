@@ -75,6 +75,12 @@
   }
 }
 
+@media screen and (max-width: 400px) {
+  .Video {
+    width:300px;
+  }
+}
+
 .ContentArea {
   padding:0 5%;
 

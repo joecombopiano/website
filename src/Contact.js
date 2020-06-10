@@ -4,7 +4,7 @@ const Contact = ()=> {
     return (<div>
         <h1>Get in touch.</h1>
         <h3>Email</h3>
-        <a className="Link" href="mailto:joe.combopiano@gmai.com">joe.combopiano@gmail.com</a>
+        <a className="Link" href="mailto:joe.combopiano@gmail.com">joe.combopiano@gmail.com</a>
         <h3>Phone</h3>
         <a className="Link" href="tel:814-881-1020">814-881-1020</a>
     </div>);

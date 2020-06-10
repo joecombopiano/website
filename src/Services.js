@@ -58,6 +58,7 @@ const Services = () => {
         <li>Collaborative Ads</li>
       </ul>
       <iframe
+        className="Video"
         title="dynamic ads example"
         src="https://player.vimeo.com/video/427478359?autoplay=1&loop=1"
         height="300"
@@ -119,7 +120,7 @@ const Services = () => {
           highest-impact work
         </li>
         <li>
-          Performring market research, long-term roadmapping, and spec'ing out
+          Performing market research, long-term roadmapping, and spec'ing out
           new features{" "}
         </li>
       </ul>

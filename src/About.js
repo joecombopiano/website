@@ -11,9 +11,13 @@ const About = () => {
       </div>
       <p>
         With over 10 years of industry experience as a software engineer,
-        product manager, solutions engineer, and consultant. Plus, having worked
-        at top companies such as Facebook, Stripe, and Microsoft &mdash;
-        <i> I'm here to fill a void and help your business succeed.</i> <br />{" "}
+        product manager, solutions engineer, and consultant, in addition to
+        having worked at top companies such as Facebook, Stripe, and Microsoft
+        &mdash;
+        <i>
+          {" "}
+          I'm here to fill a void and help your business succeed.
+        </i> <br />{" "}
       </p>
       <p></p>
       <h2>Some companies I've worked with</h2>
