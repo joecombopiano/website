@@ -63,6 +63,12 @@ function App() {
               <Route path="/home">
                 <About />
               </Route>
+              <Route>
+                <div>
+                <h1>Nope. Not a site.</h1>
+                <iframe title="not found gif" src='https://gfycat.com/ifr/FlawlessFamiliarBalloonfish' frameborder='0' scrolling='no' allowfullscreen width='640' height='404'></iframe>
+                </div>
+              </Route>
             </Switch>
             <ContactBar />
           </div>

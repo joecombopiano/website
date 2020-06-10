@@ -61,7 +61,7 @@ const Services = () => {
         title="dynamic ads example"
         src="https://player.vimeo.com/video/427478359?autoplay=1&loop=1"
         height="300"
-        width="400"
+        width="600"
         frameborder="0"
         allow="autoplay; fullscreen"
         allowfullscreen
