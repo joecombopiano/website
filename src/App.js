@@ -6,7 +6,7 @@ import {
   NavLink
 } from "react-router-dom";
 
-import logo from "./logo.svg";
+import logowhite from "./logo-white.svg";
 import ieLogo from "./ie-logo.png";
 import "./App.css";
 import About from "./About";
@@ -27,7 +27,7 @@ function App() {
             <object
               className="Logo-svg"
               type="image/svg+xml"
-              data={logo}
+              data={logowhite}
               aria-label="combo consulting logo" ></object>
 
             <div className="bottom-container">

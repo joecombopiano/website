@@ -2,7 +2,7 @@ import React from 'react';
 
 const Contact = ()=> {
     return (<div>
-        <h1>Here's how to get in touch with me.</h1>
+        <h1>Get in touch.</h1>
         <h3>Email</h3>
         <a className="Link" href="mailto:joe.combopiano@gmai.com">joe.combopiano@gmail.com</a>
         <h3>Phone</h3>

@@ -1,4 +1,5 @@
 import React from "react";
+import { HashLink as Link } from 'react-router-hash-link';
 import "./App.css";
 
 const Services = () => {
@@ -8,24 +9,24 @@ const Services = () => {
       <nav className="ServiceNav">
         <ol>
           <li>
-            <a className="Link" href="#fb">
+            <Link className="Link" to="#fb">
               Facebook Ads
-            </a>
+            </Link>
           </li>
           <li>
-            <a className="Link" href="#app-dev">
+            <Link className="Link" to="#app-dev">
               Custom Development
-            </a>
+            </Link>
           </li>
           <li>
-            <a className="Link" href="#pm">
+            <Link className="Link" to="#pm">
               Product and Technical Product Management{" "}
-            </a>
+            </Link> 
           </li>
           <li>
-            <a className="Link" href="#crm">
+            <Link className="Link" to="#crm">
               CRM Implementation and Customization
-            </a>
+            </Link>
           </li>
         </ol>
       </nav>
