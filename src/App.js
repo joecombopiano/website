@@ -31,7 +31,7 @@ function App() {
               aria-label="combo consulting logo" ></object>
 
             <div className="bottom-container">
-              <a href="mailto:joe.combopiano@gmail.com" className="email">
+              <a href="mailto:joe@combo.consulting" className="email">
                 Contact me
               </a>
             </div>
