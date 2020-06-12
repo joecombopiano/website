@@ -79,6 +79,16 @@
   .Video {
     width:300px;
   }
+  .Joe{
+    width:75px;
+    height:75px;
+    margin-left: 5%;
+    
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -khtml-border-radius: 50%;
+  }
 }
 
 .ContentArea {
